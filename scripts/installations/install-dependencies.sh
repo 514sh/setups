@@ -1,3 +1,3 @@
 #!/bin/bash
 #
-apt-get install wget gpg -y
+apt-get install wget gpg curl ca-certificates -y
