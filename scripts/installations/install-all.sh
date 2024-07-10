@@ -15,4 +15,5 @@ snap install slack
 snap install pycharm-community --classic
 snap install postman
 snap install libreoffice
-apt install zsh vim tmux -y
+apt install zsh vim tmux build-essential software-properties-common -y
+add-apt-repository ppa:deadsnakes/ppa -y
