@@ -15,4 +15,4 @@ snap install slack
 snap install pycharm-community --classic
 snap install postman
 snap install libreoffice
-apt install zsh vim
+apt install zsh vim tmux
