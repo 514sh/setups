@@ -1,7 +1,5 @@
 #!/bin/bash
 
-cd /home/$1/setup/scripts/installations
-
 ./install-dependencies.sh
 ./install-chrome.sh
 ./install-vscode.sh
@@ -15,4 +13,4 @@ wget -q -O - https://raw.githubusercontent.com/k3d-io/k3d/main/install.sh | bash
 snap install spotify
 snap install slack
 snap install pycharm-community --classic
-apt get install zsh
+apt install zsh vim
