@@ -13,5 +13,6 @@ wget -q -O - https://raw.githubusercontent.com/k3d-io/k3d/main/install.sh | bash
 snap install spotify
 snap install slack
 snap install pycharm-community --classic
+snap install postman
 snap install libreoffice
 apt install zsh vim
